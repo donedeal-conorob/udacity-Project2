@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MovieTitle" parent="Base.TextAppearance.AppCompat.Large">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/movie_item_padding</item>
+        <item name="android:paddingBottom">@dimen/movie_item_padding</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/text_color_light</item>
+    </style>
+
+    <style name="MovieDetails" parent="Base.TextAppearance.AppCompat.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/movie_item_padding</item>
+        <item name="android:paddingBottom">@dimen/movie_item_padding</item>
+        <item name="android:textColor">@color/text_color_light</item>
+    </style>
+
+    <style name="MovieSynopsis" parent="Base.TextAppearance.AppCompat.Small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/movie_poster_margin_height</item>
+        <item name="android:paddingTop">@dimen/movie_item_padding</item>
+        <item name="android:paddingBottom">@dimen/movie_item_padding</item>
+        <item name="android:textColor">@color/text_color_light</item>
+    </style>
+</resources>
